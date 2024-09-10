@@ -1,0 +1,86 @@
+body {
+   font-family: Helvetica, Arial, system-ui, sans-serif;
+   margin: 0px;
+   font-size: 1.4vw;
+}
+
+#logo {
+   margin: 0px;
+   padding: 8px;
+   color: white;
+   font-family: "Changa", Arial, Helvetica, sans-serif;
+}
+
+ul {
+   margin: 0px;
+}
+
+body > header {
+   background-color: orange;
+   padding: 8px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+#nav-ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   list-style: none;
+   text-decoration: none;
+}
+
+.navbutton {
+   color: white;
+   text-decoration: none;
+   margin: 10px;
+   padding: 10px;
+   border: 2px solid white;
+   border-radius: 10%;
+}
+
+#main-content {
+   display: flex;
+   justify-content: space-around;
+}
+
+#main-content > div {
+   width: 80%;
+}
+
+#main-content > aside {
+   margin: 2%;
+}
+
+body > main article {
+   width: 80%;
+   margin: auto;
+}
+
+body > main > h2 {
+   text-align: center;
+}
+
+form{
+   text-align: center;
+}
+
+#footer-ul{
+   display: flex;
+   list-style: none;
+}
+
+#footer-ul > div > li{
+   margin-left: 20px;
+   color: white;
+   text-decoration: none;
+} 
+
+body > footer {
+   background-color: orange;
+   padding: 8px;
+}
+
+.profile_picture {
+   border-radius: 50%;}
