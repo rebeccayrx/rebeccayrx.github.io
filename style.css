@@ -1,86 +1,189 @@
+*{
+    margin: 0px;
+}
+
 body {
-   font-family: Helvetica, Arial, system-ui, sans-serif;
-   margin: 0px;
-   font-size: 1.4vw;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: #f4f8fb;
+    transition: 0.5s;
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px
 }
 
-#logo {
-   margin: 0px;
-   padding: 8px;
-   color: white;
-   font-family: "Changa", Arial, Helvetica, sans-serif;
+#nav-bar{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-ul {
-   margin: 0px;
+#nav-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 25vw;
+    padding-right: 10vw;
 }
 
-body > header {
-   background-color: orange;
-   padding: 8px;
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
+#logo-image{
+    max-width: 5vw;
+    max-height: 5vw;
+    padding-left: 5vw;
 }
 
-#nav-ul {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   list-style: none;
-   text-decoration: none;
+#logo-text{
+    margin: 1rem;
+    padding: 1rem;
 }
 
-.navbutton {
-   color: white;
+.navbutton{
+    color: black;
    text-decoration: none;
    margin: 10px;
    padding: 10px;
-   border: 2px solid white;
-   border-radius: 10%;
 }
 
-#main-content {
-   display: flex;
-   justify-content: space-around;
+#HeroBox {
+    background-image: url(https://images.unsplash.com/photo-1528475478853-5b89bed65c4c?q=80&w=2605&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-attachment: fixed;
+    color: white;
+    padding: 50px 20px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 90vw;
+    height: 15rem;
+    margin-left: 4vw;
 }
 
-#main-content > div {
-   width: 80%;
+#hero-box-content-wrapper{
+    padding: 5rem 0px;
 }
 
-#main-content > aside {
-   margin: 2%;
+#hero-box-content-wrapper > h2{
+    padding: 10px;
 }
 
-body > main article {
-   width: 80%;
-   margin: auto;
+#hero-box-content-wrapper > p{
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
-body > main > h2 {
-   text-align: center;
+.action-button{
+    text-decoration: none;
+}
+    
+
+#our-products {
+    text-align: center;
+    padding: 50px 20px;
 }
 
-form{
-   text-align: center;
+#grid-container{
+    width: 92vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.product-card{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 5em;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(77, 77, 77, 0);
+    padding: 20px 0px;
+}
+
+.product-image{
+    height: 80%;
+    width: 80%;
+    overflow: hidden;
+}
+
+.product-info-wrapper{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product-info-wrapper > h4{
+    padding-top: 15px;
+}
+
+.price{
+    padding: 10px;
+}
+
+.add-to-cart{
+    margin: 10px;
+}
+
+#testimonials{
+    text-align: center;
+}
+
+#testimonials > h3 {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+
+#testimonial-grid{
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.testimonial-wrapper{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+
+}
+
+footer{
+    background-color: blanchedalmond;
+    padding: 30px 0px;
 }
 
 #footer-ul{
-   display: flex;
-   list-style: none;
-}
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+ }
 
-#footer-ul > div > li{
-   margin-left: 20px;
-   color: white;
-   text-decoration: none;
-} 
+ #footer-ul > h2 {
+    margin-right: 20vw;
+ }
 
-body > footer {
-   background-color: orange;
-   padding: 8px;
-}
-
-.profile_picture {
-   border-radius: 50%;}
+ 
+ #footer-ul > div > li{
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+ }
